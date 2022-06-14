@@ -88,6 +88,17 @@ This command will output the installed version
 
 java -version
 
+# XFCE Log-in remember user
+XFCE's "LightDM" GTK Greeter does not remember users so here is the fix:
+
+su
+
+sudo nano /etc/lightdm/lightdm.conf
+
+#greeter-hide-users=false  *uncomment* should look like this: greeter-hide-users=false
+
+Save and relog/reboot
+
 # To be continiued
 To add to this list, clone or pull request
 Will add what i will need later on.
