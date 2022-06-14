@@ -49,7 +49,7 @@ sudo nano /etc/pulse/daemon.conf
 pulseaudio -k && pulseaudio --start
 
 # Java install
-sudo dpkg -i jdk-18_linux-x64_bin.deb
+sudo dpkg -i jdk-18_linux-x64_bin.deb  **jdk-18** is variable to the version that will be newest!! i use jdk-18
 
 sudo mkdir /usr/lib/jvm
 
