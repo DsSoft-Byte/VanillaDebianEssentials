@@ -2,7 +2,7 @@
 My often-updated list of essential debian mods/patches to improve the amazing distro for vanilla enjoyers.
 
 # For minecrafters, that drag click
-There is a *bug* in libinput that caps the CPS on 8?! there will be an script to fix that uploaded soon or may already be here in #main
+There is a *bug*  in libinput that caps the CPS on 8?! there will be an script to fix that uploaded soon or may already be here in #main
 It will restart the PC immediatly after execution so take care of that.
 
 # nvidia, fuck you
@@ -13,7 +13,7 @@ su
 
 sudo init 3
 
-Press Alt + F1 is init 3 did not place you in an terminal
+Press Alt + F1 if init 3 did not place you in an terminal
 
 sudo nano /etc/modprobe.d/blacklist.conf
 blacklist nouveau
