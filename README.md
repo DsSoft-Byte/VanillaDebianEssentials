@@ -2,8 +2,8 @@
 My often-updated list of essential debian mods/patches to improve the amazing distro for vanilla enjoyers.
 
 # For minecrafters, that drag click
-There is a *bug*  in libinput that caps the CPS on 8?! there will be an script to fix that uploaded soon or may already be here in #main
-It will restart the PC immediatly after execution so take care of that.
+There is a *bug*  in libinput that caps the CPS on 8?! there is DragClickOnLinux.sh here in #main to fix this issue,
+it will restart the PC immediatly after execution so take care of that.
 
 # nvidia, fuck you
 Debian comes natively with the nouveau graphics drivers for nvidia GPUs. This will help you to install the proprietary drivers.
