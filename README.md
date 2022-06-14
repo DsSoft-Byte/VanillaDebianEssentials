@@ -22,7 +22,7 @@ alias nouveau off
 alias lbm-nouveau off
 
 sudo nano /etc/default/grub
-*add* nouveau.modeset=0 *before* **Quiet**
+*add*  nouveau.modeset=0  *before*  **Quiet**
 
 sudo nano /etc/modprobe.d/nouveau-kms.conf
 options nouveau modeset=0
@@ -38,11 +38,14 @@ sudo sed -i '/cdrom/d' /etc/apt/sources.list
 
 # Loading i2c module on boot (openrgb essential)
 sudo nano /etc/modules.list
-*add* i2c-dev
+
+*add*  i2c-dev
 
 # Fixing the stupid delay on volume change with keyboard buttons
 sudo nano /etc/pulse/daemon.conf
-*uncomment* enable-deferred-volume *set "yes" to "no"*
+
+*uncomment*  enable-deferred-volume  *set "yes" to "no"*
+
 pulseaudio -k && pulseaudio --start
 
 # To be continiued
