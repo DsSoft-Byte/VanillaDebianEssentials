@@ -10,6 +10,7 @@ Debian comes natively with the nouveau graphics drivers for nvidia GPUs. This wi
 nvidia 340 drivers and under are only supported on Buster and older!
 
 su
+
 sudo init 3
 
 Press Alt + F1 is init 3 did not place you in an terminal
