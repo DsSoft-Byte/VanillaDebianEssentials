@@ -34,6 +34,9 @@ sudo shutdown -r now
 
 sudo apt install nvidia-driver *will install NEWEST driver*
 
+# Adding missing dependencies
+sudo apt-get -f install
+
 # Removing cdrom from sources
 sudo sed -i '/cdrom/d' /etc/apt/sources.list
 
