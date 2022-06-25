@@ -41,7 +41,7 @@ sudo apt-get -f install
 sudo sed -i '/cdrom/d' /etc/apt/sources.list
 
 # Loading i2c module on boot (openrgb essential)
-sudo nano /etc/modules.list
+sudo nano /etc/modules
 
 *add*  i2c-dev
 
