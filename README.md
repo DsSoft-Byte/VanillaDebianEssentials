@@ -34,6 +34,10 @@ sudo shutdown -r now
 
 sudo apt install nvidia-driver *will install NEWEST driver*
 
+# Davinci Resolve Unsupported GPU....
+sudo apt install nvidia-opencl-icd
+
+
 # Adding missing dependencies
 sudo apt-get -f install
 
