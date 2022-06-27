@@ -115,3 +115,7 @@ https://dev.to/l04db4l4nc3r/bspwm-a-bare-bones-window-manager-44di
 # To be continiued
 To add to this list, clone or pull request
 Will add what i will need later on.
+
+# Cool Arduino feeder for Pet owners
+
+https://www.instructables.com/Automatic-Arduino-Pet-Feeder/
