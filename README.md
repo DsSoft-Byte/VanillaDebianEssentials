@@ -59,7 +59,7 @@ sudo nano /etc/modules
 *add*  i2c-dev
 
 # Fixing the stupid delay on volume change with keyboard buttons
-sudo nano /etc/pulse/daemon.conf
+sudo nano /etc/pulse/daemon.conf (No need for this on KDE)
 
 *uncomment*  enable-deferred-volume  *set "yes" to "no"*
 
