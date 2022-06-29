@@ -129,6 +129,10 @@ Save and relog/reboot
 
 https://dev.to/l04db4l4nc3r/bspwm-a-bare-bones-window-manager-44di
 
+# MacOS KDE Plasma layout tutorial
+
+https://store.kde.org/s/Opendesktop/p/1399346
+
 
 
 # To be continiued
