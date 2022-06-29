@@ -56,6 +56,16 @@ sudo nano /etc/pulse/daemon.conf
 
 pulseaudio -k && pulseaudio --start
 
+# Lutris/Wine Windows games tools
+
+sudo dpkg --add-architecture i386 && sudo apt update
+
+sudo apt install nvidia-driver-libs:i386
+
+WARNING: If you're forced to use a legacy driver, you will want to instead install one of nvidia-legacy-390xx-driver-libs:i386, nvidia-legacy-340xx-driver-libs:i386, or nvidia-legacy-304xx-driver-libs:i386. 
+
+(Credits to the Debian documentation https://wiki.debian.org/NvidiaGraphicsDrivers)
+
 # Java install
 sudo dpkg -i jdk-18_linux-x64_bin.deb  **jdk-18** is variable to the version that will be newest!! i use jdk-18
 
