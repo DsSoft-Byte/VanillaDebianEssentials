@@ -5,6 +5,15 @@ My often-updated list of essential debian mods/patches to improve the amazing di
 There is a *bug*  in libinput that caps the CPS on 8?! there is DragClickOnLinux.sh here in #main to fix this issue,
 it will restart the PC immediatly after execution so take care of that.
 
+# Add yourself to the sudo group
+sudo usermod -aG sudo newuser
+
+* relog and you will be in the group *
+
+sudo whomai
+
+expected output: root
+
 # nvidia, fuck you
 Debian comes natively with the nouveau graphics drivers for nvidia GPUs. This will help you to install the proprietary drivers.
 nvidia 340 drivers and under are only supported on Buster and older!
