@@ -8,9 +8,9 @@ it will restart the PC immediatly after execution so take care of that.
 # Add yourself to the sudo group
 sudo usermod -aG sudo newuser
 
-* relog and you will be in the group *
+relog and you will be in the group
 
-sudo whomai
+sudo whoami
 
 expected output: root
 
