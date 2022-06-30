@@ -133,6 +133,10 @@ https://dev.to/l04db4l4nc3r/bspwm-a-bare-bones-window-manager-44di
 
 https://store.kde.org/s/Opendesktop/p/1399346
 
+# For Qt problems (Only applies to KDE Plasma)
+
+sudo apt-get install qt4-qmake
+sudo apt-get install qt5-qmake
 
 
 # To be continiued
