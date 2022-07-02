@@ -138,6 +138,10 @@ https://store.kde.org/s/Opendesktop/p/1399346
 sudo apt-get install qt4-qmake
 sudo apt-get install qt5-qmake
 
+# Run Dolphin (FileManager) as root
+
+pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY KDE_SESSION_VERSION=5 KDE_FULL_SESSION=true dolphin
+
 
 # To be continiued
 To add to this list, clone or pull request
