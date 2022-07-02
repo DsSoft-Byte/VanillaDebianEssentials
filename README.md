@@ -150,6 +150,12 @@ sudo apt install qt5-style-kvantum qt5-style-kvantum-themes
 
 Using Pax theme
 
+* Pax-Kvantum theme
+* Pax Look-and-Feel "Global" theme
+* Shiny-Plasma style
+* Relaxed-Icons
+* Pax aurorae title-bars
+
 Look "neofetch.png"
 
 
