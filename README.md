@@ -146,6 +146,12 @@ pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY KDE_SESSION_VERSION=5 KDE_FUL
 
 sudo apt install qt5-style-kvantum qt5-style-kvantum-themes
 
+# Beautiful "Rice" & easy to do
+
+Using Pax theme
+
+Look "neofetch.png"
+
 
 # To be continiued
 To add to this list, clone or pull request
