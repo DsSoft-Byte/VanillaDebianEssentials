@@ -142,6 +142,10 @@ sudo apt-get install qt5-qmake
 
 pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY KDE_SESSION_VERSION=5 KDE_FULL_SESSION=true dolphin
 
+# Install Kvantum (KDE)
+
+sudo apt install qt5-style-kvantum qt5-style-kvantum-themes
+
 
 # To be continiued
 To add to this list, clone or pull request
