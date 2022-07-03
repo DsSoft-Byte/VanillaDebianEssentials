@@ -159,6 +159,21 @@ Using Pax theme
 
 Look "neofetch.png"
 
+# Fix "Concurrent Streams" issue on Bookworm
+
+Please note, that this "hack/edit" will "upgrade" your system to "unstable"
+
+* sudo nano /etc/apt/sources.list
+* delete everything except the 2 first lines
+* edit your sources.list like below
+
+deb http://deb.debian.org/debian/ unstable main non-free contrib
+
+deb-src http://deb.debian.org/debian/ unstable main non-free contrib
+
+* Only these two lines should be in your sources.list, update and security entries are not needed becuase unstable = rolling, like Arch.
+
+
 
 # To be continiued
 To add to this list, clone or pull request
