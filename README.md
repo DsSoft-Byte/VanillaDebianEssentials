@@ -114,6 +114,18 @@ This command will output the installed version
 
 java -version
 
+# armv7l/Aarch64/Rpi Java Installation
+
+sudo apt install -y wget apt-transport-https
+
+sudo mkdir -p /etc/apt/keyrings
+
+sudo wget -O - https://packages.adoptium.net/artifactory/api/gpg/key/public | sudo tee /etc/apt/keyrings/adoptium.asc
+
+sudo echo "deb [signed-by=/etc/apt/keyrings/adoptium.asc] https://packages.adoptium.net/artifactory/deb $(awk -F= '/^VERSION_CODENAME/{print$2}' /etc/os-release) main" | sudo tee /etc/apt/sources.list.d/adoptium.list
+
+
+
 # XFCE Log-in remember user
 XFCE's "LightDM" GTK Greeter does not remember users so here is the fix:
 
@@ -178,7 +190,3 @@ deb-src http://deb.debian.org/debian/ unstable main non-free contrib
 # To be continiued
 To add to this list, clone or pull request
 Will add what i will need later on.
-
-# Cool Arduino feeder for Pet owners
-
-https://www.instructables.com/Automatic-Arduino-Pet-Feeder/
