@@ -5,6 +5,10 @@ My often-updated list of essential debian mods/patches to improve the amazing di
 There is a *bug*  in libinput that caps the CPS on 8?! there is DragClickOnLinux.sh here in #main to fix this issue,
 it will restart the PC immediatly after execution so take care of that.
 
+# Enable Panel and window border transparency!
+To get an effect like in the screenshot go to KDE Settings -> Workspace Behaviour -> Desktop Effects -> Untick "Background Contrast" and "Blur"
+Right Click the bottom dock panel go to edit mode, enable transparency! Done!
+
 # Add yourself to the sudo group
 sudo usermod -aG sudo newuser
 
