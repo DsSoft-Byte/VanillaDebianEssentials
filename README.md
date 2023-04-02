@@ -18,6 +18,12 @@ sudo whoami
 
 expected output: root
 
+# Steam Issues
+
+Download official steam deb and install with "sudo dpkg -i steam.deb"
+Install additional missing libraries with apt or aptitude (sudo apt-get install libc6-i386)
+Let steam install dependencies on its own if required. If it never does and tries to remove steam-launcher copy the dependencies specified by steam and install them with "sudo apt-get install dep1 dep2 dep3" etc... If steam-launcher removes itself, do: "sudo apt remove steam-devices" and reinstall the steam deb again with the dpkg -i command.
+
 # nvidia, fuck you
 Debian comes natively with the nouveau graphics drivers for nvidia GPUs. This will help you to install the proprietary drivers.
 nvidia 340 drivers and under are only supported on Buster and older!
