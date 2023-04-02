@@ -7,7 +7,7 @@ it will restart the PC immediatly after execution so take care of that.
 
 # Enable Panel and window border transparency!
 To get an effect like in the screenshot go to KDE Settings -> Workspace Behaviour -> Desktop Effects -> Untick "Background Contrast" and "Blur"
-Right Click the bottom dock panel go to edit mode, enable transparency! Done!
+Right Click the bottom dock panel go to edit mode, enable transparency! Done! (This applies for window title bars and the bottom panel, to get transparent dolphin view etc use kvantum.
 
 # Add yourself to the sudo group
 sudo usermod -aG sudo newuser
