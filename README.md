@@ -5,6 +5,11 @@ My often-updated list of essential debian mods/patches to improve the amazing di
 There is a *bug*  in libinput that caps the CPS on 8?! there is DragClickOnLinux.sh here in #main to fix this issue,
 it will restart the PC immediatly after execution so take care of that.
 
+# Uninstall deb with dpkg
+
+dpkg -r $(dpkg -f your-file-here.deb Package)
+Example: dpkg -r $(dpkg -f minecraft.deb Package)
+
 # Enable Panel and window border transparency!
 To get an effect like in the screenshot go to KDE Settings -> Workspace Behaviour -> Desktop Effects -> Untick "Background Contrast" and "Blur"
 Right Click the bottom dock panel go to edit mode, enable transparency! Done! (This applies for window title bars and the bottom panel, to get transparent dolphin view etc use kvantum.
